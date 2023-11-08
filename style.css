@@ -1,0 +1,85 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator{ 
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #1A1A2E;
+}
+.calculator h1{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+.calculator-app{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 350px;
+    height: 370px;
+    border: 5px solid #16213E;
+    background: #16213E;
+    border-radius: 15px;
+}
+.calculator-app table {
+    margin: 10px;
+}
+.calculator-app table .screen{
+    margin-right: 15px;
+    width: 200px;
+    height: 35px;
+    outline: none;
+}
+.calculator-app input[type="button"]{
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    margin-left: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+.calculator-app .number{
+    background-color: #0F3460;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    color:#fff;
+}
+.calculator-app .clear{
+    background: #E94560;
+    border: none;
+    font-size: 15px;
+}
+.calculator-app .symbol,
+.calculator-app .equal{
+    background: #F15412;
+    font-size: 15px;
+    border: none;
+}
+.calculator-app .symbol{
+    font-size: 17px;
+}
+.calculator-app .equal{
+    background: #E94560;
+}
+
+.calculator-app .number:hover{
+    background: #0f3360a4;
+}
+.calculator-app .equal:hover,
+.calculator-app .clear:hover{
+    background: #e9798c;
+}
+.calculator-app .symbol:hover{
+    background: #f15512e5;
+}
+
